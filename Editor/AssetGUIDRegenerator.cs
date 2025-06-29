@@ -201,11 +201,11 @@ namespace Jads.Tools
                     // if (IsDirectory(assetPath)) continue;
 
                     // Skip scene files
-                    if (assetPath.EndsWith(".unity"))
-                    {
-                        skippedAssets.Add(assetPath);
-                        continue;
-                    }
+                    //if (assetPath.EndsWith(".unity"))
+                    //{
+                    //    skippedAssets.Add(assetPath);
+                    //    continue;
+                    //}
 
                     var metaAttributes = File.GetAttributes(metaPath);
                     var bIsInitiallyHidden = false;
